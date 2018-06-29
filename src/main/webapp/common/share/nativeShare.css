@@ -1,0 +1,81 @@
+/**
+ * Created by Jeffery Wang.
+ * Create Time: 2015-06-16 19:52
+ * Author Link: http://blog.wangjunfeng.com
+ */
+#nativeShare {
+    position: fixed;
+    background: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+.cancelShare{
+    background: #30b3f1;
+    height: 46px;
+    color: white;
+    letter-spacing: 8px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#nativeShare .label {
+    font-size: 20px;
+}
+
+#nativeShare .list {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#nativeShare .list span {
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#nativeShare .list span i {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+#nativeShare .weibo i {
+    background-image: url('weibo.png');
+    background-size: cover;
+}
+
+#nativeShare .weixin i {
+    background-image: url('weixin_friend.png');
+    background-size: cover;
+}
+
+#nativeShare .weixin_timeline i {
+    background-image: url('weixin.png');
+    background-size: cover;
+}
+
+#nativeShare .qq i {
+    background-image: url('qq.png');
+    background-size: cover;
+}
+
+#nativeShare .qzone i {
+    background-image: url('qqzone.png');
+    background-size: cover;
+}
+#nativeShare .code i {
+    background-image: url('code.jpg');
+    background-size: cover;
+}
+
+#nativeShare .more i {
+    background-image: url('more.png');
+    background-size: cover;
+}
