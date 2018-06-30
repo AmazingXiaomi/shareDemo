@@ -13,6 +13,8 @@
     
     
 ##  二维码分享
+    根据传入url动态获取二维码。
+    使用jq插件jquery.qrcode.min.js
     
    
    
