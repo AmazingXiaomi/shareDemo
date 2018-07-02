@@ -140,6 +140,7 @@ var nativeShare = function (elementNode, config) {
     this.html1 = function () {
         var sinaWebUrl = "http://service.weibo.com/share/share.php?url=" + encodeURIComponent(this.url+"&from=sina") + "&title=" + encodeURIComponent(this.title) + "&pic=" + encodeURIComponent(this.img);
         var qzoneWebUrl = "http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=" + encodeURIComponent(this.url+"&from=singlemessage&form=qq") + "&title=" + encodeURIComponent(this.title) + "&pics=" + encodeURIComponent(this.img) + "&desc=" + encodeURIComponent(this.desc) + "&summary=" + encodeURIComponent(this.desc);
+       console.log(qzoneWebUrl);
         var position = document.getElementById(this.elementNode);
         var html ='<div class="list clearfix">'+
             '<span data-app="weixin" class="nativeShare weixin"><i></i>微信好友</span>' +

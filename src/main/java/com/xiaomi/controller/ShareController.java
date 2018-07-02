@@ -33,9 +33,9 @@ public class ShareController {
         //将wx的信息到给页面
         logger.info("---------------------------------------" + strUrl + "----------------------");
         request.setAttribute("wx", wx);
-        String setting="{'imgUrl':'/common/share/cyj_icon.png','shareTitle':'小米博客','shareDesc':'欢迎访问小米兄弟的博客','urlHead':'/share/toBlog.do','id':'0'}";
+        String setting="{'imgUrl':'/common/share/30220803.png','shareTitle':'小米博客','shareDesc':'欢迎访问小米兄弟的博客','urlHead':'/share/toBlog.do','id':'0'}";
         Map map = JSONObject.parseObject(setting, Map.class);
-        request.setAttribute("urlHead", path+map.get("urlHead"));
+        request.setAttribute("urlHead", path+map.get("urlHead")+"?share=share");
         request.setAttribute("setting", map);
         request.setAttribute("path", path);
         return "/share";
